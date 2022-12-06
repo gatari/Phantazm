@@ -1,0 +1,11 @@
+{
+  "name": "phantazm",
+  "version": "0.2.0",
+  "displayName": "Phantazm",
+  "unity": "2020.3",
+  "keywords": [],
+  "dependencies": {
+    "com.cysharp.unitask": "2.2.3"
+  },
+  "description": "binary cache store for unity"
+}
