@@ -6,7 +6,7 @@ namespace Phantazm
     public interface ICacheStore
     {
         UniTask SaveAsync(string key, byte[] data, TimeSpan expiresIn);
-        UniTask<(byte[], CacheError)> LoadAsync(string key);
+        UniTask<(byte[], CacheError)> LoadAsync(string url);
         UniTask<DownloadAudioClipResponse> DownloadAudioClipAsync(string url);
         UniTask DeleteExpiredAsync();
         void DeleteAll();
